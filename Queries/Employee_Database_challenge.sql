@@ -39,6 +39,7 @@ FROM unique_titles
 GROUP BY title 
 ORDER BY COUNT(title) DESC;
 
+--Eligible employees who will participate in the mentorship program.
 SELECT DISTINCT ON (e.emp_no)e.emp_no,
 e.first_name,
 e.last_name,
@@ -46,7 +47,7 @@ e.birth_date,
 de.from_date,
 de.to_date,
 ti.title
---INTO mentorship_eligibility
+INTO mentorship_eligibility
 FROM employees AS e
 INNER JOIN dept_emp AS de
 ON (e.emp_no = de.emp_no)
