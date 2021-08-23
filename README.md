@@ -15,7 +15,9 @@ PostgreSQL11
 
 * Again, we created another table, and we named it unique_titles table(fig2). We used the DISTINCT ON function to remove duplicate entries for employees who have changed titles over the years. The chart shows the most recent titles for employees who will be retiring.
 
-![unique_titles](https://github.com/muhisan/Pewlett-Hackard-Analysis/blob/main/unique_titles.png)(fig2)
+![unique_titles](https://github.com/muhisan/Pewlett-Hackard-Analysis/blob/main/unique_titles.png)
+
+(fig2)
 
 * After, the retiring_titles table below(fig3) shows us the number of employees by their most recent job title who are about to retire. We can notice from this table that the majority of the employees 
 that are about to retire have senior titles. For that raison,they got an idea to introduce a mentoring program that will keep a part of those senior to work part time instead of retiring completely.They role will be to mentor new employees who will replace them.
